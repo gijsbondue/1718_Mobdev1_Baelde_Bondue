@@ -1,0 +1,45 @@
+//colors
+$primary-background-color: $gray1;
+$secundary-background-color: $gray2;
+
+//navigation
+.navigation{
+  position:fixed;
+  left:0;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation_links_bar {
+  background-color:$secundary-background-color;
+  height:35px; 
+}
+.navigation_name_bar {
+  background-color:  $primary-background-color;
+  height: 60px;
+  margin-left:0; 
+
+  span{
+    color: #fff;    
+    font-size: 48px;
+    margin-left: 8.3%;    
+  }
+}
+#links_result{
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    
+  }
+  a:last-of-type {
+    margin-right: 8.3%;
+
+  }
+  
+
+}

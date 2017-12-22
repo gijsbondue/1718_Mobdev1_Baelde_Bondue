@@ -1,0 +1,31 @@
+$primary-background-color: $gray1;
+$secundary-background-color: $gray2;
+$primary-text-color: $white1;
+
+//footer
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;  
+}
+
+#footer_above {
+  height: 5px;
+  width: 100%;
+  background-color: $secundary-background-color;
+}
+
+#footer_bottom {
+  height: 30px;
+  width: 100%;
+  background-color: $primary-background-color;
+  display: flex;    
+  justify-content: space-around;
+
+  .comment{
+    color: $primary-text-color;
+    size: 2px;
+  }
+}
+

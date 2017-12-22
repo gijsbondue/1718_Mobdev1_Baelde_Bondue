@@ -1,0 +1,56 @@
+{{!-- 
+  includes/navigation-block.hbs
+
+  navigation
+--}}
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+<div class="navigation">
+  <div class="navigation_links_bar">
+    <script type="text/x-handlebars-template" id="navigation_links">
+        \{{#each this}}
+        <a href=\{{hyperlink}} class="links_results">\{{naam}}</a>
+        \{{/each}}
+    </script> 
+
+    <div id="links_result">
+    </div>
+
+    <script>
+      const listLinks = 
+              [
+                {
+                  "hyperlink": "../index.html",
+                  "naam": "Home"
+                },
+                //hyperlinks kloppen nog niet, als je tweemaal klikt ga je een map verder.
+                {
+                  "hyperlink": "pages/projects.html",
+                  "naam": "Projects"
+                },    {
+                  "hyperlink": "link",
+                  "naam": "About"
+                },
+                {
+                  "hyperlink": "link",
+                  "naam": "Blog"
+                },
+                {
+                  "hyperlink": "link",
+                  "naam": "Login"
+                },
+                {
+                  "hyperlink": "link",
+                  "naam": "Contact"
+                }
+              ];
+              
+      const htmlTemplate = document.getElementById("navigation_links").innerHTML;
+      const render = Handlebars.compile(htmlTemplate);
+      document.getElementById('links_result').innerHTML = render(listLinks);
+    </script>
+  </div> 
+  <div class="navigation_name_bar">
+    <span>Shine</span>
+  </div>
+</div>
