@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="nl-be" dir="ltr" prefix="og: http://ogp.me/ns#">
   <head>
@@ -43,6 +44,8 @@
 
   </head>
   <body>
+    
+    
     <div class="navigation">
       <div class="navigation_links_bar">
         <script type="text/x-handlebars-template" id="navigation_links">
@@ -50,11 +53,10 @@
             <a href={{hyperlink}} class="links_results">{{naam}}</a>
             {{/each}}
         </script> 
-    
         <div id="links_result">
         </div>
-
         <script>
+          //json
           const listLinks = 
                   [
                     {
@@ -83,6 +85,8 @@
                     }
                   ];
                   
+    
+          
           const htmlTemplate = document.getElementById("navigation_links").innerHTML;
           const render = Handlebars.compile(htmlTemplate);
           document.getElementById('links_result').innerHTML = render(listLinks);
@@ -91,81 +95,11 @@
       <div class="navigation_name_bar">
         <span>Shine</span>
       </div>
-    </div>        
+    </div>
+        
     <div id="content_container">
-        <div id="projects">
-          <script type="text/x-handlebars-template" id="get_projects">
-              \{{#each this}}
-              <div id="project"> \{{projectName}} </div>
-              \{{/each}}
-          </script> 
-              <div id="projects_result">
-              </div>
-      
-      
-      
-          <script>
-            const projectsJSON = [
-            { "projectName":"tadaaaaaa!"},
-            { "projectName":"tadafefeaaaaa!"},
-            { "projectName":"tadaaaaaa!"}
-            ]
-            const projetsTemplate = document.getElementById("get_projects").innerHTML;
-            const projectsRender = Handlebars.compile(projectsTemplate);
-            document.getElementById('projects_result').innerHTML = projectsRender(projectsJSON);
-          </script>
-        </div> 
       <div id="projects">
-       
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-        
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="https://picsum.photos/300" />
-          <div class="project-text"> 
-            <p>eoaje</p>
-          </div>
-        </div>
-        
+          <h1>HIER KOMEN DE PROJECTEN</h1>
       </div>
     </div>
 
@@ -176,12 +110,11 @@
         <div class="comment">Artevelde hogeschool - Hoogpoort 15 - 9000 gent</div>
         <div class="comment">Disclaimer</div>
       </div>
-    </div>
+    </div> 
 
     <!-- build:js assets/js/main.min.js -->
     
-    <script src=" ./
-                  assets/js/main.js"></script>
+    <script src="./../assets/js/main.js"></script>
     <!-- endbuild -->
 
 

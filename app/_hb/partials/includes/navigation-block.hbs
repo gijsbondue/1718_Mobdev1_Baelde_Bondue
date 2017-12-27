@@ -3,7 +3,10 @@
 
   navigation
 --}}
+
+{{!--
 {{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+--}}
 
 <div class="navigation">
   <div class="navigation_links_bar">
@@ -12,11 +15,12 @@
         <a href=\{{hyperlink}} class="links_results">\{{naam}}</a>
         \{{/each}}
     </script> 
-
+    {{!-- div waarin de links verwacht --}}
     <div id="links_result">
+      {{!--resultaat--}}
     </div>
-
     <script>
+      //json
       const listLinks = 
               [
                 {
@@ -45,6 +49,8 @@
                 }
               ];
               
+
+      
       const htmlTemplate = document.getElementById("navigation_links").innerHTML;
       const render = Handlebars.compile(htmlTemplate);
       document.getElementById('links_result').innerHTML = render(listLinks);

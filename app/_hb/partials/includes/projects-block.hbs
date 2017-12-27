@@ -3,6 +3,7 @@
 
   load projects in
 --}}
+
   <div id="projects">
     <h1>test</h1>
 {{!--     <script type="text/x-handlebars-template" id="get_projects">
@@ -12,16 +13,13 @@
     </script> 
         <div id="projects_result">
         </div>
-
-
-
     <script>
       const projectsJSON = [
       { "projectName":"tadaaaaaa!"},
       { "projectName":"tadafefeaaaaa!"},
       { "projectName":"tadaaaaaa!"}
       ]
-      const projetsTemplate = document.getElementById("get_projects").innerHTML;
+      const projectsTemplate = document.getElementById("get_projects").innerHTML;
       const projectsRender = Handlebars.compile(projectsTemplate);
       document.getElementById('projects_result').innerHTML = projectsRender(projectsJSON);
     </script> --}}
