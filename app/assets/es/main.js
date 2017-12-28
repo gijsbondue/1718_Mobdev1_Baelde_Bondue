@@ -3,6 +3,7 @@
 
 import { Person, Student } from './models';
 import { GridOverlayElement } from './grid';
+import { DataObject } from './projects';
 
 class App {
   constructor () {
@@ -34,9 +35,22 @@ class App {
     const st1 = new Student('362453', 'philippe.depauw@arteveldehs.be', 'Philippe', 'De Pauw - Waterschoot');
     console.log(st1.toString());
   }
+
+/*   importProjects () {
+    const project = new DataObject();
+    const loadedJSON = project.fetchProjects('https://datatank.stad.gent/4/cultuursportvrijetijd/bibliotheekexemplaar.json');
+    return loadedJSON;
+    } */
+    
 };
 
 window.addEventListener('load', (ev) => {
   const app = new App();
   app.init();
-});
+
+/*   const projects = app.importProjects();
+  console.log(app.importProjects());
+  if(document.getElementById("jsonImport") != true){
+    document.getElementById("jsonImport").innerHTML = projects;
+  } */
+})

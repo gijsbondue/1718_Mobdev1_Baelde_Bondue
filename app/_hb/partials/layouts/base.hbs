@@ -31,6 +31,7 @@
   </head>
   <body>
     {{> includes/navigation-block}}  
+    
         
     {{#> content-block}}
       {{!-- Content for the page goes here. --}}
@@ -39,8 +40,7 @@
     {{> includes/footer-block}}     
  
 
-    <!-- build:js assets/js/main.min.js -->
-    
+    <!-- build:js assets/js/main.min.js -->    
     <script src="{{#if pathToRoot}}{{pathToRoot}}{{/if}}../assets/js/main.js"></script>
     <!-- endbuild -->
 

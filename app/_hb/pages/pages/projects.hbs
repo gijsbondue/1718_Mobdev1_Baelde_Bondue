@@ -1,0 +1,22 @@
+{{!-- pages/projects.hbs --}}
+
+
+{{#> layouts/base title="Home | New Media Development | Artevelde University College Ghent" pathToRoot="./../" }}
+
+  {{#*inline "content-block"}}
+    <div class="fb-grid__container">
+      <div class="fb-grid__row">
+        <div class="fb-grid__col-12">
+          <div id="projects">
+            <h1>HIER KOMEN DE PROJECTEN</h1>
+            {{> includes/projects-block }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

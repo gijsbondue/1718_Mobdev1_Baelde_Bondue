@@ -4,9 +4,9 @@
   load projects in
 --}}
 
-  <div id="projects">
-    <h1>test</h1>
-{{!--     <script type="text/x-handlebars-template" id="get_projects">
+
+
+  <script type="text/x-handlebars-template" id="get_projects">
         \{{#each this}}
         <div id="project"> tada! \{{projectName}} </div>
         \{{/each}}
@@ -14,13 +14,9 @@
         <div id="projects_result">
         </div>
     <script>
-      const projectsJSON = [
-      { "projectName":"tadaaaaaa!"},
-      { "projectName":"tadafefeaaaaa!"},
-      { "projectName":"tadaaaaaa!"}
-      ]
+      //find the json
+      const projectsJSON = "test";//importProjects(); 
       const projectsTemplate = document.getElementById("get_projects").innerHTML;
       const projectsRender = Handlebars.compile(projectsTemplate);
       document.getElementById('projects_result').innerHTML = projectsRender(projectsJSON);
-    </script> --}}
-  </div> 
+    </script> 
