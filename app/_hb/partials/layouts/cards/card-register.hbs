@@ -1,0 +1,46 @@
+{{#> layouts/cards/card cardtype="card-register" pathToRoot="./" }} 
+  {{#*inline "card-structure"}}
+      <div class="fb-grid__row">
+		<div class="fb-grid__col-12">
+			<form class="register-form" action="post">
+				<p>E-Mail</p>
+				<input type="text" name="email" id="Email">
+
+				<p>Wachtwoord</p>
+				<input type="password" name="password" id="Password">
+
+				<div class="repeat-password-container">
+					<p>Herhaal Wachtwoord</p>
+					<input type="password" name="repeat-password" id="Repeat-password">
+				</div>
+
+				<div class="name-container">
+					<p>Naam</p>
+					<input type="text" name="name" id="Name">
+				</div>
+
+			</form>
+		</div> 
+      </div>
+			<div class="fb-grid__row">
+				<div class="fb-grid__col-12 checkbox-col">
+					<div class="checkbox">
+						<input type="checkbox" name="is-student">
+						<label for="is-student" class="checkbox-label"> GDM student</label>
+					</div> 
+					<div class="checkbox">
+						<input type="radio" name="course-multimedia">
+						<label for="course-multimedia" class="checkbox-label">Multimedia</label> 
+					</div>
+					
+				</div>
+			</div>
+      <div class="fb-grid__row">
+				<div class="fb-grid__col-12 button-col">
+					<button type="submit" class="login-button"><h1>Register</h1></button>
+				</div>
+      </div>
+			
+
+  {{/inline}}
+{{/layouts/cards/card}}
