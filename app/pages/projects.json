@@ -1,44 +1,9 @@
-{
-    "projects":[        
-/*  TEMPLATE
-        {
-            "project_id":"KinderBoerderij",
-            "extern_intern_project": "intern",            
-            "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
-                {
-                    "name":"Jules",
-                    "specialization": "Crossmedia",
-                    "2nd_specialization":"Graphic",
-                    "jaar":"2de jaar"
-                }
-            ],
-            "text": {
-                "title":"titel",
-                //aray voor paragrafen
-                "description":  [
-                    " ",
-                ]
-            },
-            "likes": 0,
-            "imagePrimary":"img",
-            "repo":    {
-                "img1": "img",
-                "img2": "img",
-                "txt1": "txt",
-                "img3": "img",
-                "txt2": "txt",
-                "img4": "img",
-                "txt3": "txt",
-                "vid1": "txt"
-            }            
-        } */
-        // 1
+[        
         {
             "project_id":"Kinderboerderij",
             "created_date":"",
             "extern_intern_project": "intern",                        
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Jules Van Rijsselberge",
                     "specialization": "Crossmedia-ontwerp",
@@ -48,7 +13,6 @@
             ],
             "text": {
                 "title":"Kinderboerderij",
-                //aray voor paragrafen
                 "description":  [
                     "Als eindwerk voor de tweede jaar ontwikkelden de studenten Graphic Design een huisstijl voor een lokale kinderboerderij.",
                     "Jules Van Rijsselberge ontwierp een sterk, uitgepuurd logo. Een functioneel uithangbord voor de organisatie. Hij combineert in zijn ontwerp een strakke vormgeving met een spontane, kindvriendelijke illustratiestijl gebaseerd op een digitale wasco-techniek."
@@ -66,12 +30,11 @@
                 "txt3": "van ideeschets naar uitgewerkte versie"
             }            
         },
-        // 2
         {
             "project_id":"Orbit",
             "created_date":"",
             "extern_intern_project": "intern",                        
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Siham Asrikh ",
                     "specialization": "Crossmedia-ontwerp",
@@ -93,9 +56,8 @@
                 "img3": "projects/orbit/3.advertentie.jpg"
             }            
         }, 
-        // 3
         {
-            "project_id":"Memorial_WV",
+            "project_id":"memorial-van-damme-wv",
             "created_date":"",
             "extern_intern_project": "extern",                        
             "creator":  [ 
@@ -107,23 +69,22 @@
                 }
             ],
             "text": {
-                "title":"Memorial Van Damme 40ste Editie",
+                "title":"Memorial Van Damme",
                 "description":  [
                     "De studenten 2CMO namen in 2016 deel aan de wedstrijd die op zoek gaat naar het campagnebeeld voor de 40ste editie van de Memorial Van Damme"
                 ]
             },
             "likes": 0,
-            "imagePrimary":"projects/memorial-van-damme-wv/2.posters.jpg",
+            "imagePrimary":"projects/memorial-van-damme-wv/2.poster.jpg",
             "repo":    {
-                "img1": "projects/memorial-van-damme-wv/2.posters.jpg"
+                "img1": "projects/memorial-van-damme-wv/2.poster.jpg"
             }            
         },
-        // 4
         {
             "project_id":"Winter",
             "created_date":"",
             "extern_intern_project": "intern",                        
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Freya De Corte",
                     "specialization": "Crossmedia-ontwerp",
@@ -132,24 +93,23 @@
                 }
             ],
             "text": {
-                "title":"Orbit",
+                "title":"Winter",
                 "description":  [
                    
                 ]
             },
             "likes": 0,
-            "imagePrimary":"projects/winter/2.poster.jpg",
+            "imagePrimary":"projects/winter/detail1_DeCorteFreya.png",
             "repo":    {
-                "img1": "projects/winter/2.poster.jpg",
+                "img1": "projects/winter/detail1_DeCorteFreya.png",
                 "txt1": "If you can dream it, we'll learn you how to photoshop it – GDM"
             }            
         }, 
-        // 5 
         {
             "project_id":"StreetArtMap",
             "created_date":"",
             "extern_intern_project": "intern",                        
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Bram De Backer",
                     "specialization": "Multimediaproductie",
@@ -158,8 +118,7 @@
                 }
             ],
             "text": {
-                "title":"Bachelorproef StreetArtMap",
-                //aray voor paragrafen
+                "title":"StreetArtMap",
                 "description":  [
                     "Voor mijn bachelorproef wilde ik een webapplicatie maken die alle street art in België verzamelde en op een interactieve kaart zette. Gebruikers kunnen hun eigen foto's van een mural uploaden, die ma een screening online komen.",
                     "streetartmap.be",
@@ -184,12 +143,11 @@
                 "img4": "projects/street-art-map/app-04.png"
             }            
         },
-        // 6 
         {
             "project_id":"Heathen",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Lander Denys",
                     "specialization": "Multimediaproductie",
@@ -198,8 +156,7 @@
                 }
             ],
             "text": {
-                "title":"Title Sequence – Heathen",
-                //aray voor paragrafen
+                "title":"Heathen",
                 "description":  [
                     "Title sequence voor een niet bestaande serie/film."
                 ]
@@ -216,12 +173,11 @@
                 "vid1": "<iframe src='https://player.vimeo.com/video/209717004?color=ee9900&amp;title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen=''></iframe>"
             }     
         },
-        //7
         {
             "project_id":"boef",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Jules",
                     "specialization": "Crossmedia",
@@ -231,7 +187,6 @@
             ],
             "text": {
                 "title":"(B)oef",
-                //aray voor paragrafen
                 "description":  [
                     "Een dief trekt op pad om zijn slag te slaan ...",
                     "Heel veel ideeën gehad voor dit filmpje, maar helaas opnieuw door de tijdsbeperking van 1 minuut praktisch alle ideeën moeten weggooien! Uiteindelijk wel nog tevreden met het resultaat. Ondertitels kunnen worden aangevinkt, voor diegenen die 'West-Vlaams' onder de categorie 'Zuid-Afrikaans' rekenen …"
@@ -247,12 +202,11 @@
             }     
 
         },
-        //8
         {
             "project_id":"Olympus",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Jens De Wulf",
                     "specialization": "Multimediaproductie",
@@ -261,8 +215,7 @@
                 }
             ],
             "text": {
-                "title":"Web App - Olympus",
-                //aray voor paragrafen
+                "title":"Olympus",
                 "description":  [
                     "Opdracht: bedenk, ontwerp en programmeer een elektronisch stemsysteem voor verkiezingen en referenda dat bestaat uit een Mobile Web App, een API en een Backoffice en rekening houdt met authenticatie, privacy, beveiliging en integriteit.",
                     [
@@ -285,12 +238,11 @@
                 "txt5": "Laravel- en Vue.js-code."               
                 }            
         },
-        // 9
         {
             "project_id":"schoolhoeve",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Rietje van hoof",
                     "specialization": "Crossmedia-ontwerp",
@@ -300,7 +252,6 @@
             ],
             "text": {
                 "title":"Schoolhoeve",
-                //aray voor paragrafen
                 "description":  [
                 ]
             },
@@ -314,12 +265,11 @@
                 "img5": "projects/schoolhoeve/5.visual.jpg"
             }            
         },
-        // 10
         {
             "project_id":"Cesar",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Victor Gouhie",
                     "specialization": "Multimediaproductie",
@@ -329,33 +279,31 @@
             ],
             "text": {
                 "title":"Cesar",
-                //aray voor paragrafen
                 "description":  [
                     "De briefing van deze opdracht voor het vak '2D Animatie' luidde als volgt: maak een one minute video door gebruik te maken van ‘Vormator’ elementen."
                 ]
             },
             "likes": 0,
-            "imagePrimary":"projects/cesar/6_details_cesar.png",
+            "imagePrimary":"projects/cesar/6_detail_cesar.png",
             "repo": {
                 "img1": "projects/cesar/1_detail_theelements.png",
                 "txt1": "Vorminator bestaat uit acht vectorvormen, die 'the elements' genoemd worden. Deze mogen door de ontwerpers gebruikt worden om composities te maken, maar je moet je hierbij wel aan een aantal regels houden.",
-                "img2": "projects/cesar/2_details_cesar.png",
+                "img2": "projects/cesar/2_detail_cesar.png",
                 "txt2": "Victor: 'Ik wou kleine elementen gebruiken die samenkomen tot een groot geheel of een groot wezen. De vorminator elementen waren perfect voor dit soort animatie en zo is uiteindelijk de video met het samengestelde skelet tot stand gekomen.'",                
-                "img3": "projects/cesar/3_details_cesar.png",
+                "img3": "projects/cesar/3_detail_cesar.png",
                 "gif1": "projects/cesar/cesar.gif",
-                "img4": "projects/cesar/5_details_cesar.png",
+                "img4": "projects/cesar/5_detail_cesar.png",
                 "txt3": "De bedoeling van de opdracht was om het belang van beperkingen op creativiteit te tonen. De resultaten tonen aan dat je zelfs met een grote hoeveelheid restricties tot een verrassend resultaat kan komen.",
-                "img5": "projects/cesar/5_details_cesar.png",
+                "img5": "projects/cesar/5_detail_cesar.png",
                 "vid1": "<iframe src='https://player.vimeo.com/video/209716825?color=ee9900&amp;title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen=''></iframe>"
                 
             }            
         }, 
-        // 11
         {
             "project_id":"Brussel",
             "created_date":"",
             "extern_intern_project": "intern", 
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Dean De Coster",
                     "specialization": "Multimediaproductie",
@@ -365,30 +313,28 @@
             ],
             "text": {
                 "title":"Brussel XL",
-                //aray voor paragrafen
                 "description":  [
                     "Deze film werd gemaakt als oefening binnen een leeromgeving en heeft geen enkel commercieel doel.",
                     "Brussel komt niet vaak positief in de kijker en daar wou ik verandering in brengen.<br />Hiervoor maakte ik gebruik van meer dan 1730 beelden.<br />Om de timing goed te doen uitkomen heb ik time-remapping gebruikt.<br />Tot slot om extra accenten te leggen heb ik nog wat animatie toegevoegd.<br />Dit heb ik frame per frame geanimeerd."
                 ]
             },
             "likes": 0,
-            "imagePrimary":"projects/bxl/detail6_DeCosterDean",
+            "imagePrimary":"projects/bxl/detail6_DeCosterDean.png",
             "repo": {
-                "img1": "projects/bxl/detail1_DeCosterDean",
-                "img2": "projects/bxl/detail2_DeCosterDean",
-                "img3": "projects/bxl/detail3_DeCosterDean",
-                "img4": "projects/bxl/detail4_DeCosterDean",
-                "img5": "projects/bxl/detail5_DeCosterDean",
-                "img6": "projects/bxl/detail6_DeCosterDean",                
+                "img1": "projects/bxl/detail1_DeCosterDean.png",
+                "img2": "projects/bxl/detail2_DeCosterDean.png",
+                "img3": "projects/bxl/detail3_DeCosterDean.png",
+                "img4": "projects/bxl/detail4_DeCosterDean.png",
+                "img5": "projects/bxl/detail5_DeCosterDean.png",
+                "img6": "projects/bxl/detail6_DeCosterDean.png",
                 "vid1": "<iframe src='https://player.vimeo.com/video/209716964?color=ee9900&amp;title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen=''></iframe>"
             }            
         },
-        // 12
         {
             "project_id":"infografiek",
             "created_date":"",
             "extern_intern_project": "extern",            
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Elena Vanhauwaert",
                     "specialization": "Crossmedia-ontwerp",
@@ -410,12 +356,11 @@
                 "img3": "projects/orbit/3.advertentie.jpg"
             }            
         },
-        //13
         {
             "project_id":"Trois_Quarts",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Quinten Braem",
                     "specialization": "Crossmedia-ontwerp",
@@ -425,7 +370,6 @@
             ],
             "text": {
                 "title": "Les Trois Quarts",
-                //aray voor paragrafen
                 "description":  [
                     "Wijn wordt maar al te vaak in een klassieke verpakking verkocht. De studenten 3CMO onderzochten hoe een hedendaagse wijnverpakking er kan uitzien"
                 ]
@@ -438,12 +382,11 @@
                 "img3": "projects/packshot-wijn/3_packshot_wijn_2.jpg"
             }            
         },
-        //14
         {
             "project_id":"Irupo",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Kevin De Vuyst",
                     "specialization": "Multimediaproductie",
@@ -452,8 +395,7 @@
                 }
             ],
             "text": {
-                "title":"Packshot – IPURO christmas",
-                //aray voor paragrafen
+                "title":"IPURO christmas",
                 "description":  [
                     "De studenten audiovisual design kregen de opdracht om een 3D packshot te maken. Packshots zie je doorgaans vaak als laatste shot in commercials voor producten."
                 ]
@@ -471,12 +413,11 @@
                 "vid1": "<iframe src='https://player.vimeo.com/video/209726968?color=ee9900&amp;title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen=''></iframe>"
             }            
         }, 
-        //15
         {
             "project_id":"Sociale_bescherming",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Yoeri De Sloovere",
                     "specialization": "Crossmedia-ontwerp",
@@ -486,7 +427,6 @@
             ],
             "text": {
                 "title":"Sociale bescherming",
-                //aray voor paragrafen
                 "description":  [
                     "De tweede jaar CMO maakte in 2016 de wenskaart voor de NGO 'FOS'. Yoeri maakte een grafisch beeld dat perfect vertolkt waar de organisatie voor staat"
                 ]
@@ -497,12 +437,11 @@
                 "img1": "projects/sociale-bescherming/2.kaart.jpg"
             }            
         },
-        //16
         {
             "project_id":"vormgever-in-cijfers",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Simon Van Damme",
                     "specialization": "Crossmedia-ontwerp",
@@ -511,8 +450,7 @@
                 }
             ],
             "text": {
-                "title":"Infografiek – Vormgever in Cijfers",
-                //aray voor paragrafen
+                "title":"Vormgever in cijfers",
                 "description":  [
                     "De studenten CMO visualiseerden de resultaten van een bevraging naar de drijfveren van grafische vormgevers."
                 ]
@@ -526,12 +464,11 @@
                 "img3": "projects/vormgever-in-cijfers/3.jpg"
             }            
         },
-        //17 
         {
             "project_id":"space-dweller",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Jonas Dermul",
                     "specialization": "Crossmedia-ontwerp",
@@ -541,7 +478,6 @@
             ],
             "text": {
                 "title":"Space Dweller",
-                //aray voor paragrafen
                 "description":  [
                     "Opdracht: 'stel je voor dat een reis naar de planeet Mars even gewoon zou zijn als een intercontinentale vlucht op aarde. Hoe zou je deze reis dan promoten?'"
                 ]
@@ -561,12 +497,11 @@
                 
             }            
         },
-        //18
         {
             "project_id":"kon_samui",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Elena Vanhauwaert",
                     "specialization": "Crossmedia-ontwerp",
@@ -576,7 +511,6 @@
             ],
             "text": {
                 "title":"Kon Samui",
-                //aray voor paragrafen
                 "description":  [
                     "Een graphic designer moet zich kunnen verplaatsen in de leefwereld van elk soort klant. In dit geval ging om het de wereld van reizen en het promoten van toeristische bestemmingen."
                 ]
@@ -588,12 +522,11 @@
                 "img2": "projects/kon-samui/2.poster.jpg"
             }            
         },
-        //19
         {
             "project_id":"el_dorado",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Amandine Faingnaert",
                     "specialization": "Crossmedia-ontwerp",
@@ -602,8 +535,7 @@
                 }
             ],
             "text": {
-                "title":"Amandine Faingnaert",
-                //aray voor paragrafen
+                "title":"El Dorado",
                 "description":  [
                     "De eindopdracht van de tweede jaar CMO bestond uit het branden van een fictief thema-pretpark. Amandine creëerde het tot de verbeelding sprekende 'El Dorado', een pretpark met piraten-thema"
                 ]
@@ -626,12 +558,11 @@
                 "txt5": "Een piraat zonder schatkaart is geen piraat"
             }            
         },
-        //20
         {
             "project_id":"melk_campagne",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Shauny Eloot",
                     "specialization": "Crossmedia-ontwerp",
@@ -641,7 +572,6 @@
             ],
             "text": {
                 "title":"Melk Campagne",
-                //aray voor paragrafen
                 "description":  [
                     "Opdracht: bedenkt een nieuwe merknaam en ontwerp de verpakkingen voor 3 soorten melk. Vol, halfvol en melk met een speciaal smaakje. Er werd een huisstijl uitgewerkt die tevens de basis vormde voor een bijhorende reclamecampagne."
                 ]
@@ -658,12 +588,11 @@
                 "txt2": "Ontwerp van een promotionele app. Op basis van een ingegeven 'mood' worden melksuggesties aangereikt."                
             }            
         },
-        //21
         {
             "project_id":"diabeasy",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Stijn Gevens",
                     "specialization": "Crossmedia-ontwerp",
@@ -676,8 +605,7 @@
                 }
             ],
             "text": {
-                "title":"New Media Apps – Diabeasy",
-                //aray voor paragrafen
+                "title":"Diabeasy",
                 "description":  [
                     "Opdracht: bedenk, ontwerp en maak een prototype van een smartwatch- en een smartphone-app, en maak er een promowebsite voor.",
                     "Diabeasy is een app voor diabetici die ervoor moet zorgen dat mensen met diabetes gedurende de hele dag een constante bloedsuikerspiegel hebben en het aantal insuline-injecties zo minimaal mogelijk kunnen houden."
@@ -704,12 +632,11 @@
                 "txt3": "Wireflow/Prototype voor de smartwatch-app in Adobe XD."
             }            
         },
-        //22 
         {
             "project_id":"kookboek",
             "extern_intern_project": "Extern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Elena Vanhauwaert",
                     "specialization": "Crossmedia-ontwerp",
@@ -718,8 +645,7 @@
                 }
             ],
             "text": {
-                "title":"kookboek",
-                //aray voor paragrafen
+                "title":"Kookboek",
                 "description":  [
                     "Ontwerp de cover van een kookboek over Noordzeevis. Hiervoor werkten de studenten met basismateriaal dat ter beschikking werd gesteld door de Gentse Uitgever Borgerhoff en Lamberigts."
                 ]
@@ -730,12 +656,11 @@
                 "img1": "projects/kookboek/1.cover.png"
             }            
         },
-        // 23
         {
             "project_id":"bourgoyen",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [
                 {
                     "name":"Phaedra De Wambersie",
                     "specialization": "Crossmedia-ontwerp",
@@ -745,7 +670,6 @@
             ],
             "text": {
                 "title":"Huisstijl Bourgoyen",
-                //aray voor paragrafen
                 "description":  [
                     "De studenten van het 2de jaar CMO kregen de opdracht om het Gentse natuurreservaat De Bourgoyen van een huisstijl te voorzien. Er werd een logo ontwikkeld, een passende illustratiestijl en diverse print- en schermtoepassingen"
                 ]
@@ -760,12 +684,11 @@
                 "img5": "projects/bourgoyen-pdw/5.illustraties.jpg"
             }            
         },
-        //24
         {
             "project_id":"mighty-spicy",
             "extern_intern_project": "intern",            
             "created_date":"",
-            "creator":  [ //aray is voor meerdere studenten
+            "creator":  [ 
                 {
                     "name":"Liesbeth Tempelare",
                     "specialization": "Crossmedia-ontwerp",
@@ -775,25 +698,23 @@
             ],
             "text": {
                 "title":"Mighty Spicy",
-                //aray voor paragrafen
                 "description":  [
                     "In de tweede jaar ontwikkelden de studenten een huisstijl voor een foodtruck-concept. Liesbeth bracht haar pittige taco's via een kleurrijke branding aan de man"
                 ]
             },
             "likes": 0,
-            "imagePrimary": "projects/migty-spicy/1_detail_logo.png",
+            "imagePrimary": "projects/mighty-spicy/1_detail_logo.png",
             "repo":    {
-                "img1": "projects/migty-spicy/1_detail_logo.png",
+                "img1": "projects/mighty-spicy/1_detail_logo.png",
                 "txt1": "'Branded' communicatie vertrekt vaak vanuit het logo. Een logo kan makkelijk gereproduceerd worden, maar voor het er is worden vele uren besteed aan ontwerpwerk, besprekingen en bijschaven tot wanneer het helemaal goed zit",
-                "img2": "projects/migty-spicy/2_detail_logovariaties.png",
-                "img3": "projects/migty-spicy/3_detail_foodtruck.png",
-                "img4": "projects/migty-spicy/4_detail_foodtruck.png",
+                "img2": "projects/mighty-spicy/2_detail_logovariaties.png",
+                "img3": "projects/mighty-spicy/3_detail_foodtruck.png",
+                "img4": "projects/mighty-spicy/4_detail_foodtruck.png",
                 "txt2": "Een volgende stap is het ontwerpen van de foodtruck zelf. Deze wordt dan later in promotiemateriaal zoals onderstaande advertentie en grondplan verwerkt.",
-                "img5": "projects/migty-spicy/5_detail_advertentie.png",
-                "img6": "projects/migty-spicy/6_detail_plattegrond.png",
+                "img5": "projects/mighty-spicy/5_detail_advertentie.png",
+                "img6": "projects/mighty-spicy/6_detail_plattegrond.png",
                 "txt3": "Een brandingcampagne is pas compleet als je de klant ook online kan bereiken.",
-                "img7": "projects/migty-spicy/7_detail_onepage.png"               
+                "img7": "projects/mighty-spicy/7_detail_onepage.png"               
             }            
         }  
     ]
-}

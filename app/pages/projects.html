@@ -86,9 +86,7 @@
                       "naam": "Contact"
                     }
                   ];
-                  
-    
-          
+                        
           const htmlTemplate = document.getElementById("navigation_links").innerHTML;
           const render = Handlebars.compile(htmlTemplate);
           document.getElementById('links_result').innerHTML = render(listLinks);
@@ -108,20 +106,55 @@
             
             
             
-              <script type="text/x-handlebars-template" id="get_projects">
-                    {{#each this}}
-                    <div id="project"> tada! {{projectName}} </div>
-                    {{/each}}
-                </script> 
-                    <div id="projects_result">
-                    </div>
-                <script>
-                  //find the json
-                  const projectsJSON = "test";//importProjects(); 
-                  const projectsTemplate = document.getElementById("get_projects").innerHTML;
-                  const projectsRender = Handlebars.compile(projectsTemplate);
-                  document.getElementById('projects_result').innerHTML = projectsRender(projectsJSON);
-                </script> 
+            <script type="text/x-handlebars-template" id="get_projects">
+              {{#each this}}
+                <div class="project">
+                  <div class="project_img" >
+                    <img src='../assets/images/{{imagePrimary}}' alt='{{text.title}}'>
+                  </div>
+                  <div class="project_text">      
+                    <h4>{{text.title}}</h4>
+                  </div>
+                  </div>
+              {{/each}}
+            </script> 
+            
+            <div id="projects_result"></div>
+            
+            <script>
+              const AJAX = { projectsService(url){
+                //openen van een promise
+                  return new Promise(function(resolve, reject) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.responseType = 'json';
+                    xhr.open('GET', url, true);
+                    xhr.onload = function() {
+                      if(xhr.status === 200) {
+                        var data = (!xhr.responseType)?JSON.parse(xhr.response):xhr.response;                    
+                        resolve(data);
+                      } else {
+                        reject(xhr.status);
+                      }
+                    };
+                    xhr.onerror = function() {
+                      reject(Error('Network Error!'));
+                    }
+                    xhr.send(null);
+                  });        
+                
+              }}
+              //promise aanmaken
+              myPromise = AJAX.projectsService("projects.json");
+              myPromise.then( function (data) {
+            
+                const projectsTemplate = document.getElementById("get_projects").innerHTML;
+                const render = Handlebars.compile(projectsTemplate);
+                document.getElementById('projects_result').innerHTML = render(data);
+                })
+              .catch( function(reject){
+                console.log("péch!");
+                })  
+            </script> 
           </div>
         </div>
       </div>
